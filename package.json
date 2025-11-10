@@ -1,0 +1,25 @@
+{
+  "name": "procedural-learning-experiment",
+  "version": "1.0.0",
+  "description": "A procedural learning experiment using jsPsych",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "jsPsych",
+    "procedural-learning",
+    "cognitive-experiment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jspsych": "^7.3.4",
+    "@jspsych/plugin-html-keyboard-response": "^1.1.3",
+    "@jspsych/plugin-serial-reaction-time": "^1.1.3",
+    "@jspsych/plugin-instructions": "^1.1.4"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
